@@ -2,4 +2,4 @@
 
 > Remove traffic-lights from your windows
 
-![](https://github.com/albinekb/hyperclean/blob/master/media/with.png)
+![](https://raw.githubusercontent.com/albinekb/hyperclean/master/media/with.png)
