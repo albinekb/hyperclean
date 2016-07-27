@@ -6,4 +6,11 @@ exports.decorateBrowserOptions = defaults => {
   return clean
 }
 
-exports.onApp = () => {}
+exports.decorateConfig = config => {
+  return Object.assign({}, config, {
+    css: `
+      ${config.css || ''}
+      .tab_first { margin-left: 0px; }
+    `
+  })
+}
