@@ -1,6 +1,6 @@
 {
   "name": "hyperclean",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Hyperterm plugin",
   "main": "index.js",
   "repository": "albinekb/hyperclean",
