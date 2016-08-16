@@ -1,6 +1,6 @@
 {
   "name": "hyperclean",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "HyperTerm plugin to remove traffic lights",
   "main": "index.js",
   "repository": "albinekb/hyperclean",
