@@ -6,7 +6,7 @@
 
 ## Configuration
 
-In your `~/.hyperterm.js`, you can configure settings for `hyperclean`.
+In your `~/.hyper.js`, you can configure settings for `hyperclean`.
 
 ```js
 modules.exports = {
