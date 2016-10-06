@@ -14,7 +14,6 @@ modules.exports = {
     // other config...
     hyperClean: {
       hideTabs: true, // default: false
-      hideFirstTabBorder: true, // default: false
     },
   },
   // ...
@@ -26,11 +25,3 @@ modules.exports = {
 Change The visibility of the tabs.
 
 ![](https://raw.githubusercontent.com/albinekb/hyperclean/master/media/tabs.png)
-
-### hideFirstTabBorder
-
-Hide the border of the first tab.
-
-![](media/border.png)
-
-![](media/no-border.png)

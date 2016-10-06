@@ -10,14 +10,11 @@ exports.decorateConfig = config => {
   return Object.assign({}, config, {
     css: `
       ${config.css || ''}
-      .tab_first { margin-left: 0px; }
+      .tabs_borderShim { display: none; }
+      .tabs_list { margin-left: -1px; }
       ${config.hyperclean && config.hyperclean.hideTabs && `
         .header_header { display: none; }
         .terms_terms { margin-top: 0px; }
-      `}
-      ${config.hyperclean && config.hyperclean.hideFirstTabBorder && `
-        .tab_first { border: 0 !important; }
-        .tab_first { margin-left: -1px; }
       `}
     `
   })
