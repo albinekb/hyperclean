@@ -12,7 +12,7 @@ In your `~/.hyperterm.js`, you can configure settings for `hyperclean`.
 modules.exports = {
   config: {
     // other config...
-    hyperclean: {
+    hyperClean: {
       hideTabs: true, // default: false
       hideFirstTabBorder: true, // default: false
     },
