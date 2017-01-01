@@ -1,9 +1,10 @@
 'use strict'
 
-exports.decorateBrowserOptions = defaults => {
-  const clean = Object.assign({ frame: false }, defaults)
-  delete clean.titleBarStyle
-  return clean
+exports.decorateBrowserOptions = config => {
+  return Object.assign({}, config, {
+    titleBarStyle: '',
+    frame: false,
+  });
 }
 
 exports.decorateConfig = config => {
